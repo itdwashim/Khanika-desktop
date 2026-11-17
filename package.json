@@ -1,0 +1,38 @@
+{
+  "name": "khanika-hostel-manager",
+  "version": "1.26.0",
+  "description": "Khanika Hostel Manager (offline desktop app)",
+  "author": "Khanika",
+  "main": "main.js",
+  "scripts": {
+    "postinstall": "node scripts/copy-vendor.js",
+    "start": "electron .",
+    "dist": "electron-builder --win nsis",
+    "dist:zip": "electron-builder --win zip"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3",
+    "jspdf": "2.5.1",
+    "xlsx": "0.18.5",
+    "qrcode-generator": "1.4.4"
+  },
+  "build": {
+    "appId": "com.khanika.hostel",
+    "productName": "Khanika Hostel Manager",
+    "files": [
+      "main.js",
+      "preload.js",
+      "app/**/*"
+    ],
+    "win": {
+      "signAndEditExecutable": false
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  }
+}
