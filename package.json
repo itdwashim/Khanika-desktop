@@ -1,6 +1,6 @@
 {
   "name": "khanika-hostel-manager",
-  "version": "1.26.0",
+  "version": "1.27.0",
   "description": "Khanika Hostel Manager (offline desktop app)",
   "author": "Khanika",
   "main": "main.js",
