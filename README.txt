@@ -205,3 +205,15 @@ NEW IN VERSION 1.19
   - SIGNATURES: new Edit and Draw buttons in Settings > Signatures. Draw with mouse or finger; Edit removes the paper
     background, sets the ink colour (black / blue / dark blue), trims empty space and sets the printed size (50% to 150%).
   - ANDROID: the dashboard clock, calendar and flag now show on the phone too (in a compact layout).
+
+NEW IN VERSION 1.28
+  - Settings > Header Bar: the three sections (clock/calendar/flag, weather and display, top bar colour and items) are now ONE section.
+  - Click the date card in the top bar to open a month calendar with holiday details (browse months, click a day, see the
+    month's holidays and the next ones coming up). Esc or Close shuts it.
+  - Click the weather card to update the weather at once.
+  - Dashboard header: the property logo and address are removed (they are in the side menu); the property name stays.
+  - Reject website submissions: new admissions (Students and Online Requests > New admissions from the website) and service
+    requests now have a Reject button. Rejected admissions are kept, not fetched again, and can be restored.
+    Payment claims already had Reject.
+  - Invoices: Generate Invoices and Add/Edit Invoice let you type the description printed for each charge. Reports still group
+    by the original charge type.
